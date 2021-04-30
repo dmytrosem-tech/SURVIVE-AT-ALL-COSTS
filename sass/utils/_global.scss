@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  // outline: 2px solid red;
+}
+
+body {
+  margin: 0;
+
+  font-family: Bebas Neue, sans-serif;
+  // background-color: $colorLight;
+  color: $mainTxtColor;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+a {
+  outline: none;
+  margin: 0;
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}

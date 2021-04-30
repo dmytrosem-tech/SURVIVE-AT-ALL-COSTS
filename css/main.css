@@ -1,0 +1,93 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Bebas Neue, sans-serif;
+  color: #ffffff;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+a {
+  outline: none;
+  margin: 0;
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.grid__item {
+  -ms-flex-preferred-size: calc((100% - 30px * var(--grid__item)) / var(--grid__item));
+      flex-basis: calc((100% - 30px * var(--grid__item)) / var(--grid__item));
+  margin-left: 30px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=main.css.map */

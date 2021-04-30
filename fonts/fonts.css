@@ -1,0 +1,15 @@
+@font-face {
+  font-family: BebasNeue-bold;
+  font-style: regular;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./BebasNeueBold.woff);
+}
+
+@font-face {
+  font-family: BebasNeue-regular;
+  font-style: regular;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./BebasNeueRegular.woff);
+}
